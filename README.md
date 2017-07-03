@@ -35,7 +35,7 @@ $ bash run.sh dev
 ---
 
 - App containers do not start with `npm start`, they start with `pm2-docker start` 
-- Migrations are runned automatically with starting the app `sequelize db:migrate`
+- Migrations are runned automatically by starting the app `sequelize db:migrate`
 
 
 ---
