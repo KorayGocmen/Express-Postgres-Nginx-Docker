@@ -1,10 +1,12 @@
 #!/bin/bash
 
 build(){
+  docker-compose down
   docker-compose build
 }
 
 run(){
+  docker-compose down
   docker-compose up
 }
 
@@ -38,10 +40,13 @@ generate_api_doc(){
 }
 
 run_dev(){
+  docker-compose down
   docker-compose up db &
   cd app
-  bash start.sh && cd ..
-  open http://localhost
+  bash start.sh &
+  cd ..
+  sleep 10
+  open http://localhost:3000
 }
 
 if [ $1 == "build" ]; then
