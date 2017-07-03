@@ -36,6 +36,7 @@ $ bash run.sh dev
 
 ## Deploying to Digital Ocean
 ### You only need to run three commands on the droplet you create
+##### You will need at least 1GB box, postgres needs at least 1GB to handle 3 connections
 
 ```
 $ git clone https://github.com/KorayGocmen/Express-Postgres-Nginx-Docker.git app

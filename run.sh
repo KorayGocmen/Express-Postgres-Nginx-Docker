@@ -7,7 +7,7 @@ build(){
 
 run(){
   docker-compose down
-  docker-compose up
+  docker-compose up -d
 }
 
 check_dependencies_and_run(){
