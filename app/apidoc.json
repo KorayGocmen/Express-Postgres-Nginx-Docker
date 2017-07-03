@@ -1,0 +1,5 @@
+{
+  "name": "Express-Postgres-Nginx-Docker",
+  "version": "1.0.0",
+  "description": "ApiDoc for Express, Postgress, Docker"
+}

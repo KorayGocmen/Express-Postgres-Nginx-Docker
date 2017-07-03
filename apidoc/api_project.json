@@ -1,0 +1,1 @@
+{  "name": "Express-Postgres-Nginx-Docker",  "version": "1.0.0",  "description": "ApiDoc for Express, Postgress, Docker",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-07-03T03:18:48.379Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }}
