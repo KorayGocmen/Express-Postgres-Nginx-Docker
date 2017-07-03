@@ -1,8 +1,8 @@
 <h1 align="center">
 Express-Postgres-Nginx-Docker
 </h1>
-<div style="text-align:center">
-<img style="width: 80%; height: auto;" src="http://www.koraygocmen.com/images/E_P_N_D.png"></img>
+<div style="text-align: center">
+  <img height="80%" width="auto" src="http://www.koraygocmen.com/images/E_P_N_D.png"></img>
 </div>
 
 ## Dependencies:
