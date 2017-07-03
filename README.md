@@ -34,9 +34,18 @@ $ bash run.sh dev
 ```
 ---
 
+## Deploying to Digital Ocean
+### You only need to run three commands on the droplet you create
+
+```
+$ git clone https://github.com/KorayGocmen/Express-Postgres-Nginx-Docker.git app
+$ cd app
+$ bash deploy.sh
+```
+---
+
 - App containers do not start with `npm start`, they start with `pm2-docker start` 
 - Migrations are runned automatically by starting the app `sequelize db:migrate`
-
 
 ---
 > ### *by Koray Gocmen*
