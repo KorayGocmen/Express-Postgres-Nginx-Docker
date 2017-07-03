@@ -1,5 +1,5 @@
 # Express-Postgres-Nginx-Docker
-
+![network diagram](http://www.koraygocmen.com/images/E_P_N_D.png)
 ## Dependencies:
 ### Install Docker
 ```
