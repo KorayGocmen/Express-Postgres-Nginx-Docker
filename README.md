@@ -1,13 +1,13 @@
 # Express-Postgres-Nginx-Docker
+
+## Dependencies:
 ---
-
-
-> ## Dependencies:
+### Install Docker
 ```
 [Docker] https://www.docker.com/ 
 ```
-
-> ## Running the app:
+---
+## Running the app:
 ### First Time:
 #### *Builds the app and starts all the containers*
 ```
